@@ -14,7 +14,7 @@ Features
 - Runs in parallel using multithreading for high speed  
 - Outputs data to .csv, .txt, and optionally .xlsx for Excel compatibility  
 - Easy configuration via hip_config.txt for Crawlbase token  
-- Ready for integration with Snowflake or BI tools
+- Ready for integration with BI tools
 
 Technologies Used
 -----------------
@@ -65,7 +65,6 @@ hotel_name, hotel_id, check_in_date, price, is_available, scrape_timestamp, erro
 
 Optional Enhancements
 ---------------------
-- Snowflake integration via snowflake-connector-python  
 - Power BI or Tableau connection to analyze exported .csv files  
 - Add ML model for dynamic pricing alerts
 
